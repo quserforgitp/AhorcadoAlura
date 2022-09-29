@@ -11,7 +11,47 @@
     </head>
     <body>
         <div class="contenedor-principal">
-            <div class="logo-alura"><img src="src/img/aluraAlogo.svg" alt="la letra a como logo de la empresa alura latam"></div>
+            <div class="logo-alura">
+                <header>
+                    <img src="src/img/aluraAlogo.svg" alt="la letra a como logo de la empresa alura latam">
+                </header>
+            </div>
+            <div class="contenido-principal">
+                <main>
+                    <button class="btn-iniciar-juego">Iniciar Juego</button>
+                    <button class="btn-agregar-palabra">Agregar nueva palabra</button>
+                    <input type="text" class="input-nueva-palabra">
+                    <div class="ahorcado">
+                        <canvas></canvas>
+                    </div>
+                    <div class="outputs-letras">
+                        <input type="text" class="output-letras-adivinadas">
+                        <input type="text" class="output-letras-no-adivinadas">
+                    </div>
+                    <div class="elementos-agregando-palabra">
+                        <p class="advertencia-numero-letras">
+                            Máx. de 8 letras
+                        </p>
+                        <button class="btn-guardar-palabra">Guardar y empezar</button>
+                        <button class="btn-cancelar">Cancelar</button>    
+                    </div>
+                    <div class="elementos-jugando">
+                        <button class="btn-nuevo-juego">Nuevo Juego</button>
+                        <button class="btn-desistir">Desistir</button>
+                    </div>
+                    <footer>
+                        <div class="caja-rodapie-datos-personales-desarrollador">
+                            <ul>
+                                <li>Name: Helios Barrera Hernández</li>
+                                <li>Country: México</li>
+                            </ul>
+                            <p><a class="Copyright" href="https://www.w3schools.com/about/about_copyright.asp" target="_blank">Copyright 2022-2023</a> by Organism and its affiliates &copy; All rights reserved</p>
+                            <p>| Alura Encriptador is Powered by Helios Barrera Hernández | (developer at Organism Co.)</p>
+                            <img src="src/img/organism-logo.png" class="logo-organism" alt="logo-organism">
+                        </div>
+                    </footer>
+                </main>
+            </div>
         </div>
     </body>
 </html>
